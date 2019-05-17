@@ -1,0 +1,21 @@
+{
+    "name": "dank-hydra",
+    "displayName": "dank-hydra",
+    "description": "Extending the hydra theme to look even better with the Dank Mono font",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dank Hydra",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dank Hydra-color-theme.json"
+            }
+        ]
+    }
+}
